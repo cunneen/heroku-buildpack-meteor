@@ -45,7 +45,7 @@ Configure your plugins & settings
 
 ```
 % heroku addons:create mongolab:sandbox  # optional: use whatever mongo provider you prefer
-% heroku config:add MONGO_URL=<insert_value_of_MONGOLAB_URI_here>
+% heroku config:add MONGO_URL=<insert_value_of_MONGOLAB_URI_here> # You can get the mongolab details: `heroku config | grep MONGOLAB_URI`
 % heroku config:add ROOT_URL=<insert_url_created_above_here>
 ```
 
